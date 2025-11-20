@@ -3,7 +3,11 @@ Argumentation Knowledge-graphs for Advanced Search Engines
 
 ## Papers
 
-- Turkstra, F., Nabhani, S., & Al Khatib, K. (2025, July). TriLLaMa at CQs-Gen 2025: A Two-Stage LLM-Based System for Critical Question Generation. In Proceedings of the 12th Argument mining Workshop (pp. 349-357).
+- Turkstra, F., Nabhani, S., & Al Khatib, K. (2025). TriLLaMa at CQs-Gen 2025: A Two-Stage LLM-Based System for Critical Question Generation. In Proceedings of the 12th Argument mining Workshop (pp. 349-357).
+
+### Upcoming Submissions 
+- (01/12/2025) Turkstra, F., Nabhani, S., & Al Khatib, K. ArgsBase: A Multi-Agent Interface for Structured Human–AI Deliberation.
+- (05/01/2026) Turkstra, F., & Al Khatib, K. Deliberation-Based Multi-Agent Approach for Fallacy Detection.
 
 ## Tools
 
