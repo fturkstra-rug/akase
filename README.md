@@ -1,5 +1,7 @@
 # AKASE
-Argumentation Knowledge-graphs for Advanced Search Engines
+Argumentation Knowledge-graphs for Advanced Search Engines.
+
+This work was made possible by the AKASE third-party project under the OpenWebSearch.eu project. The OpenWebSearch.eu project is funded by the EU under Grant Agreement No. 101070014, and we thank them for their support.
 
 ## Papers
 
