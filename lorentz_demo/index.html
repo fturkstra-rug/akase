@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorentz Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <!-- <h1>Motion: Abortion should be banned.</h1> -->
+        <input type="text">
+        <div id="user-turn-status">It's your turn to speak!</div>
+    </div>
+
+    <audio id="audioPlayer">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div class="chat-container">
+        <button id="scroll-to-bottom-button" onclick="scrollToBottom()">Scroll to Bottom</button>
+    </div>
+
+    <div class="chat-input">
+        <textarea id="chat-message" type="text" rows="1" cols="50" placeholder="Type a message..."></textarea>
+        <button id="send-button" onclick="sendUserMessage()" title="Wait for the moderator to request user input"></button>
+        <button id="mic-button" title="Wait for the moderator to request user input" class="off" disabled></button>
+        <button id="save-button" onclick="saveChatMessages()" title="Export to JSON"></button>
+    </div>
+
+    <div id="websocket-status">Connecting...</div>
+
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.1020.0.min.js"></script>
+    <script src="chat.js"></script>
+    <script src="websocket.js"></script> <!-- depends on chat.js -->
+    <script src="speech2text.js"></script> <!-- depends on chat.js -->
+</body>
+</html>
