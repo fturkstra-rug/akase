@@ -46,8 +46,8 @@ def run_pipeline(input_dir: str | Path):
     # arc_model.load_or_train(force_train=False) 
     logger.info('Loaded RelationClassifier.')
 
-    S3_BUCKET = "bucket_name"
-    S3_PREFIX = "prefix"
+    S3_BUCKET = "akasearch-deep-storage"
+    S3_PREFIX = "web_docs"
 
     config = Config(max_pool_connections=50)
     s3 = boto3.client('s3', config=config)
